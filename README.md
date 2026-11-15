@@ -267,11 +267,11 @@ Les dépendances exactes sont définies dans les fichiers `requirements.txt` et 
 
 Projet réalisé dans le cadre du **BUT Réseaux & Télécommunications**.
 
-**Projet : SAE 3.02 — Déploiement et supervision ctOS**
+**Projet : SAE 3.02 — Développer une application communicante**
 
 **Équipe de développement : Seii**
 
-Développement : Ayoub et Amaury.
+Développement : Ayoub Kachouche et Amaury Koebel.
 
 <div align="center">
 
