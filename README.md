@@ -58,63 +58,7 @@ L'ensemble des données est centralisé sur la machine serveur. Le client ne pos
 
 ## Architecture
 
-ctOS utilise deux machines virtuelles Debian 12 connectées sur le même réseau.
-
-### VM Serveur
-
-Le serveur constitue le cœur du système.
-
-Il est responsable de :
-
-- Héberger la base de données SQLite.
-- Exécuter le programme serveur Python.
-- Recevoir et traiter les requêtes TCP.
-- Gérer les opérations de lecture et d'écriture.
-- Transmettre les réponses au client.
-
-### VM Client
-
-Le client constitue le poste opérateur.
-
-Il est responsable de :
-
-- Fournir une interface graphique native.
-- Permettre la gestion des incidents.
-- Afficher les données présentes sur le serveur.
-- Accéder aux interfaces de simulation.
-- Communiquer avec le serveur via TCP.
-
-**Principe fondamental :** le client ne stocke aucune donnée métier. Les données et leur traitement restent centralisés sur le serveur.
-
-### Schéma de communication
-
-```text
-        VM CLIENT — Debian 12
-     ┌─────────────────────────┐
-     │     Console ctOS        │
-     │                         │
-     │  Gestion des incidents  │
-     │  Consultation BDD       │
-     │  Interface véhicule     │
-     │  Supervision carrefour  │
-     └────────────┬────────────┘
-                  │
-             TCP / JSON
-              Port 5555
-                  │
-     ┌────────────▼────────────┐
-     │      VM SERVEUR        │
-     │                         │
-     │     Serveur Python      │
-     │     Traitement TCP      │
-     │     Gestion des données │
-     │                         │
-     │      SQLite             │
-     │  ctos_database.db       │
-     └─────────────────────────┘
-```
-
----
+<img src="docs/assets/schema.pnj" width="400" alt="ctOS Logo">
 
 ## Installation
 
