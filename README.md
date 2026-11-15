@@ -275,7 +275,7 @@ Développement : Ayoub et Amaury.
 
 <div align="center">
 
-<img src="docs/assets/CtOS_1.jpg" width="250" alt="ctOS Logo">
+<img src="docs/assets/seii.png" width="250" alt="ctOS Logo">
 
 ---
 
