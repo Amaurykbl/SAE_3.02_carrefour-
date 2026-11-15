@@ -71,7 +71,11 @@ Avant de commencer, assurez-vous de disposer des éléments suivants :
 
 <img src="docs/assets/vm1.png" width="800" alt="ctOS Logo">
 
-- Les configurer de cette façon dans VirtualBOx
+- Les configurer de cette façon dans VirtualBox :
+- <img src="docs/assets/vm2.png" width="800" alt="ctOS Logo">
+<img src="docs/assets/vm3.png" width="800" alt="ctOS Logo">
+
+   
 
 Les deux machines doivent pouvoir communiquer sur le réseau. Le port TCP `5555` doit être accessible depuis le client.
 
