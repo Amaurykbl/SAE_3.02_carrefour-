@@ -200,10 +200,10 @@ Lancez le script d'installation :
 sudo bash install.sh
 ```
 
-Une fois l'installation terminée, démarrez le serveur :
+Une fois l'installation terminée, démarrez le serveur en utilisant la commande affiché du terminal :
 
 ```bash
-cd '/home/toto/Downloads/SAE_3.02_carrefour--main (1)/SAE_3.02_carrefour--main/vm_serveur' && python3 server.py
+cd 'chemin/vm_serveur' && python3 server.py
 ```
 
 Le serveur est alors prêt à recevoir les connexions du client.
@@ -224,10 +224,10 @@ sudo bash install.sh
 
 Pendant l'installation, renseignez **l'adresse IP de la VM Serveur**. Pour la récupérer, exécutez `ip a` sur la machine serveur.
 
-Une fois l'installation terminée, lancez l'application :
+Une fois l'installation terminée, lancez l'application en utilisant la commande affiché du terminal :
 
 ```bash
-cd '/home/toto/Downloads/SAE_3.02_carrefour--main (1)/SAE_3.02_carrefour--main/vm_client' && QTWEBENGINE_CHROMIUM_FLAGS="--disable-gpu --no-sandbox" QT_QPA_PLATFORM=xcb python3 client.py
+cd 'chemin/vm_client' && QTWEBENGINE_CHROMIUM_FLAGS="--disable-gpu --no-sandbox" QT_QPA_PLATFORM=xcb python3 client.py
 ```
 
 L'interface graphique ctOS devrait alors se lancer et communiquer avec le serveur.
