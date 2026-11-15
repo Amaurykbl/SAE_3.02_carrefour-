@@ -1,6 +1,6 @@
  <div align="center">
 
-<img src="docs/assets/CtOS_1.jpg" width="400" alt="ctOS Logo">
+<img src="docs/assets/CtOS_1.jpg" width="450" alt="ctOS Logo">
 
 # ctOS — Centralized Traffic Operating System
 
@@ -28,7 +28,7 @@ Le système repose sur une architecture client-serveur : le serveur centralise l
 
 ## Aperçu
 
-<img src="docs/assets/demo.gif" width="400" alt="ctOS Logo">
+<img src="docs/assets/demo.gif" width="550" alt="ctOS Logo">
 
 ## Présentation
 
