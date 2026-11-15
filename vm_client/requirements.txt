@@ -1,0 +1,1 @@
+PyQt6>=6.6\nPyQt6-WebEngine>=6.6\n
