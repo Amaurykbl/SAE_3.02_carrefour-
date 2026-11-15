@@ -66,15 +66,12 @@ L'ensemble des données est centralisé sur la machine serveur. Le client ne pos
 
 Avant de commencer, assurez-vous de disposer des éléments suivants :
 
-| Élément | Prérequis |
-|---|---|
-| Système serveur | Debian 12 |
-| Système client | Debian 12 |
-| Python | Python 3 |
-| Interface graphique | Environnement graphique Debian |
-| Réseau | Communication entre les deux VM |
-| Droits utilisateur | Compte disposant de sudo |
-| Virtualisation | VirtualBox ou équivalent |
+- 2 VM Linux Debian ( de préférence sous Debian 12 ) :
+- 1 vm client et 1 vm serveur
+
+<img src="docs/assets/vm1.png" width="800" alt="ctOS Logo">
+
+- Les configurer de cette façon dans VirtualBOx
 
 Les deux machines doivent pouvoir communiquer sur le réseau. Le port TCP `5555` doit être accessible depuis le client.
 
