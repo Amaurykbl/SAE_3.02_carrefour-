@@ -58,7 +58,7 @@ L'ensemble des données est centralisé sur la machine serveur. Le client ne pos
 
 ## Architecture
 
-<img src="docs/assets/schema.pnj" width="400" alt="ctOS Logo">
+<img src="docs/assets/schema.png" width="400" alt="ctOS Logo">
 
 ## Installation
 
