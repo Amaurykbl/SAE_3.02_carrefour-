@@ -28,41 +28,7 @@ Le système repose sur une architecture client-serveur : le serveur centralise l
 
 ## Aperçu
 
-*Quelques aperçus de l'interface ctOS.*
-
-### Console opérateur
-
-<!-- Remplacer par une capture réelle de la console principale -->
-
-![Console opérateur](docs/assets/screenshots/console.png)
-
-Interface principale permettant de superviser les opérations et d'accéder aux différentes fonctionnalités.
-
-### Gestion des incidents
-
-<!-- Remplacer par une capture réelle -->
-
-![Gestion des incidents](docs/assets/screenshots/incidents.png)
-
-Visualisation et gestion des incidents enregistrés dans le système.
-
-### Supervision du carrefour
-
-<!-- Remplacer par une capture réelle -->
-
-![Supervision du carrefour](docs/assets/screenshots/carrefour.png)
-
-Visualisation de l'environnement de circulation et de ses différents éléments.
-
-### Interface véhicule
-
-<!-- Remplacer par une capture réelle -->
-
-![Interface véhicule](docs/assets/screenshots/vehicule.png)
-
-Interface permettant de simuler les interactions d'un véhicule avec le système central.
-
----
+<img src="docs/assets/demo.gif" width="400" alt="ctOS Logo">
 
 ## Présentation
 
